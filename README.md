@@ -23,7 +23,6 @@
 * [Integrantes do Projeto](#integrantes)
 * [Status do Projeto](#status-do-projeto)
 * [Apresentação do Projeto](#apresentação-do-projeto)
-* [Link do Vídeo](#link-do-vídeo)
 * [Conclusão](#conclusão)
 
 # Nome-do-projeto
@@ -46,7 +45,7 @@ Turma: 191105A16
 # Status-do-projeto
 
 <h4 align="center"> 
-    🏁:  Projeto Concluído 🏁:
-    🥇 Projeto em andamento
+    🏁:  Projeto  🏁:
+    🥇 Projeto em andamento 🛠️
     
 </h4>
