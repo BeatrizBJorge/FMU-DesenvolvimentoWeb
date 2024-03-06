@@ -71,3 +71,8 @@ Seletor - tag, id ou class
 Declarações - As chaves e tudo dentro delas  
 Propiedades - as coisas a serem alteradas  
 Valores - os novos valores das propiedades alteradas  
+<br>
+### Seletores
+Os seletores conectam um elemento HTML com o CSS, podendo ser a **tag** *html* ```<p>``` que seleciona no *css* ```p```  
+um **ID** (que deve ser um valor único) HTML: ```<p id="my-id">``` e no CSS: ```#my-id```  
+uma **Classe** (que pose se repetir várias vezes) HTML: ```<p class="my-class">``` e no CSS: ```.my-class```  
