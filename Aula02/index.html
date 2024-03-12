@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <script src="./assets/JS/script.js"></script>
+    <title>Aula 02</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <br><br>
+        <div class="quadro">
+            <h1>This should work</h1>
+            <h2>MAGIC</h2>
+            <h3>A gabi gosta de be te ese</h3>
+
+            <span class="sol">
+                <img src="./assets/IMAGES/sailormoon.png" alt="">
+            </span>
+            <span class="sol">
+                <a href="https://images7.memedroid.com/images/UPLOADED392/5fd26484055b4.jpeg" target="_blank">Clique aqui e descubra um segredo</a>
+            </span>
+            <!--IMGS are better in span-->
+
+            <h1>Formularios</h1>
+            <br>
+            <h1>Cadastro de humanos</h1>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Humans Infos</legend>
+                    <label for="">
+                        Name:
+                        <input type="text" name="nomePessoa" id="" placeholder="Type your name human!" maxlength="80" size="60" required class="input">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        E-mail:
+                        <input type="email" name="email" id="" placeholder="Type an E-mail if you have" maxlength="100" size="50" required class="input">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        Data de nascimento:
+                        <input type="date" name="dataNasc" id="" required>
+                    </label>
+                    <!--no break space - espaço não quebravel-->
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="">
+                        N° de filhos:
+                        <input type="number" name="nFilhos" id="" min="0" max="10" value="0">
+                    </label>
+                    <br><br>
+                    <label for="">
+                        <textarea name="FaleSobreTu" id="" cols="50" rows="10" placeholder="Tell me about you" class="input"></textarea>
+                    </label>
+                    <br>
+                    <label for="">
+                        Senha:
+                        <input type="password" name="senha" id="" placeholder="password" class="input">
+                    </label>
+                    <br><br>
+                    <input type="submit" value="Send" class="botao">
+                    <input type="reset" value="Clear" class="botao">
+                    <br><br>
+                    <!--127.0.0.1:5500/
+                        index.html?
+                        nomePessoa=a
+                        &email=b%40email.com
+                        &dataNasc=2000-02-11
+                        &nFilhos=0
+                        &FaleSobreTu=dddddd
+                        &senha=sfdfsdgf#
+                        method get
+
+                        127.0.0.1:5500/
+                        index.html?
+                        method post
+                    -->
+
+                </fieldset>
+            </form>
+
+        </div>
+        <br><br>
+    </main>
+    
+</body>
+</html>
