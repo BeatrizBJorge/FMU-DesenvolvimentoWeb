@@ -37,20 +37,20 @@ O favicon é importante para reforçar a credibilidade de uma página, pois cone
 Podemos estilizar uma lista de muitas maneiras, assim com mudar o que aparece ao lado de cada elemento com o *list-style-type*
 Com ele dá para colocar os números romanos, um pequeno quadrado e até mesmo imagens como
 os sinalizadores da lista.
-```css
+```
 ol {
     list-style-type: upper-roman;
 }
 ul{
     list-style: circle;
 }
-```
+```  
 Existem três maneiras de usar o CSS:  
-- CSS externo: link stylesheet
-- CSS interno: <style> </style>
-- CSS inline: <ul style=" ">
+- CSS externo: link stylesheet  
+- CSS interno: <style> </style>  
+- CSS inline: <ul style=" ">  
 <br>
 **Externo**: Um arquivo(.css), linkado na head através do link rel 
-**Interno**: Na head do seu HTML, adicione a tag style e dentro dessa tag adicione todo seu estilo
-**Inline**: Feito dentro da propia tag HTML
+**Interno**: Na head do seu HTML, adicione a tag style e dentro dessa tag adicione todo seu estilo  
+**Inline**: Feito dentro da propia tag HTML  
   <br>
