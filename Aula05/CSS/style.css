@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(195, 224, 250);
+}
+
+.quadro{
+    background-color: #fff;
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFB6C1;
+    text-align: center;
+    /*border-bottom: dashed palevioletred 5px;*/
+}
+
+h2, h3, h4, h6 {
+    color: 	#A020F0;
+    text-align: right;
+}
+h5{
+    color: black;
+}
+
+/*
+Podemos interfirir nas classes do bootstrap com o nosso style
+*/
+.accordion-button{
+    background-color: #FFB6C1;
+}
+.accordion-button:not(.collapsed){
+    background-color: #005c49;
+    color: #fff;
+}
+
+.alert{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+}
