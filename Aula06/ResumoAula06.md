@@ -1,5 +1,4 @@
 javascript
 
-event onblur
-mascara de cep
+alguns conceitos básicos de javascript
 etc...
