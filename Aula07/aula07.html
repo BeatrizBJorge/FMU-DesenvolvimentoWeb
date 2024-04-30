@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event onblur para CEP e Email</title>
+</head>
+<body>
+
+<label for="cep">CEP:</label>
+<input type="text" id="cep" name="cep" placeholder="Digite o CEP" onblur="validarCEP(this.value)">
+
+<label for="email">Email:</label>
+<input type="text" id="email" name="email" placeholder="Digite o email" onblur="aplicarMascaraEmail(this)">
+
+<script>
+  function validarCEP(cep) {
+    // Aqui você pode adicionar a lógica de validação do CEP
+    // Por exemplo, verificar se o CEP possui um formato válido
+
+    // Neste exemplo, apenas exibiremos uma mensagem de alerta
+    alert("Você digitou o CEP: " + cep);
+  }
+
+  function aplicarMascaraEmail(input) {
+    // Verifica se o campo está vazio
+    if (input.value.trim() === '') {
+      alert("Por favor, digite um email válido.");
+      return;
+    }
+
+    // Verifica se já tem uma máscara aplicada
+    if (input.value.endsWith("@dominio.com")) {
+      return;
+    }
+
+    // Aplica a máscara ao email
+    input.value += "@dominio.com";
+  }
+</script>
+
+</body>
+</html>
