@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificar Número Par ou Ímpar</title>
+</head>
+<body>
+
+<script>
+  let valor;
+  valor = parseInt(window.prompt("Digite um número"));
+
+  if (valor % 2 == 0) { // verifica se é par
+    if (valor >= 0) { // verifica se é positivo
+      document.write("O número é par e positivo");
+    } else {
+      document.write("O número é par e negativo");
+    }
+  } else { // caso não seja par
+    if (valor >= 0) { // verifica se é positivo
+      document.write("O número é ímpar e positivo");
+    } else {
+      document.write("O número é ímpar e negativo");
+    }
+  }
+</script>
+
+</body>
+</html>
