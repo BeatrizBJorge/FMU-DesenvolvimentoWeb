@@ -1,0 +1,12 @@
+criando o crud
+CRUD (C=CREATE ---> INSERT
+      R=READ
+      U=UPDATE
+      D=DELETE)
+INSERT INTO clientes (nome, nascimento, endereco, genero, novosprodutos, ofertas)  
+values ('$nome', '$nasc', '$endereco', '$genero', '$novosprodutos', '$ofertas');
+
+
+
+banco
+CREATE TABLE IF NOT EXISTS clientes( codigo INT AUTO_INCREMENT PRIMARY KEY, nome VARCHAR(80) NOT NULL, nasc DATE NOT NULL, endereco VARCHAR(100) NOT NULL, genero CHAR NOT NULL, novosprodutos VARCHAR(3) NOT NULL, ofertass VARCHAR(3) NOT NULL );
