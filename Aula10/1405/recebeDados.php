@@ -29,7 +29,8 @@ try{
     $ofertas = $_POST["fInfo2"];
     
     $nome = strtoupper($nome);
-    
+
+    //checkbox
     if(empty($_POST["fInfo1"])){
         $novosProdutos = "nao";
     }else{
@@ -58,10 +59,11 @@ try{
     */
 
     //colocar em todos os arquivos .php
-    
+    //muda dependendo da tabela
     $sql=$conectar->prepare("USE bancoempresa; INSERT INTO pdo.clientes (nome, nascimento, endereco, genero, novosprodutos, ofertas)  
     values ('$nome', '$nasc', '$endereco', '$genero', '$novosProdutos', '$ofertas')");
-  
+
+    //mudar pra cada endereço
    $sql->execute();
    header("location: index.html");
 
