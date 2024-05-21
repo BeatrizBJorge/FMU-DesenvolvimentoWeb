@@ -1,0 +1,14 @@
+ $email = $_POST['email'];
+    $senha = $_POST['senha'];
+    $sql=$conectar->query("SELECT * FROM pdo.usuarios WHERE email='$email' AND senha='$senha'");
+
+    echo "<table border='1'><tr><td>Nome</td></tr>";
+    while ($linha=$sql->fetch(PDO::FETCH_ASSOC))
+    {
+        echo "<tr><td>$linha[nome]</td></tr>";
+    }
+    echo "</table>";
+    
+ } catch (PDOException $e) {
+     echo ("Erro: ". $e->getMessage());
+ }
