@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 - PHP</title>
+    
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="recebeDados.php" method="post">
+
+        <label for="">
+            Nome:
+            <input type="text" name="fNome" id="" placeholder="Digite seu nome..." maxlength="80" size="85" required>
+        </label>
+
+        <br><br>
+
+        <label for="">
+            Data de Nascimento:
+            <input type="date" name="fNascimento" id="" required>
+        </label>
+
+        <br><br>
+
+        <label for="">
+            Endereço:
+            <input type="text" name="fEndereco" id="" maxlength="80" size="85" required>
+        </label>
+
+        <br><br>
+
+        <label for="">
+            <!--checked para deixar marcado-->
+            <input type="radio" name="fGenero" id="" value="F" required>Feminino
+            <input type="radio" name="fGenero" id="" value="M">Masculino
+            <input type="radio" name="fGenero" id="" value="O">Ouutros
+        </label>
+
+        <br><br>
+
+        <label for="">
+            Tem interesse em novos produtos?
+            <input type="checkbox" name="fInfo1" value="sim">
+        </label>
+
+        <label for="">
+            Quer receber nossas ofertas?
+            <input type="checkbox" name="fInfo2" value="sim">            
+        </label>
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
