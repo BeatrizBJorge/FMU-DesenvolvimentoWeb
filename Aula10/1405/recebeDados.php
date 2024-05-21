@@ -12,8 +12,11 @@ novosProdutos   VARCHAR(3)      NOT NULL
 ofertas         VARCHAR(3)      NOT NULL
 */
 
-//importano porgramfga de conexao.phph
-include_once "conexao.php"; /*pode ser usado tmbv só o iclude, 
+
+//importando arquivo de conexao .php
+//colocar em todos os arquivos .php
+include_once "conexao.php"; 
+/*pode ser usado tmb só o iclude, 
 mas o include onde impede que seja utuilizado novamente*/
 
 try{
@@ -54,6 +57,8 @@ try{
     echo "Ofertas: $ofertas";
     */
 
+    //colocar em todos os arquivos .php
+    
     $sql=$conectar->prepare("USE bancoempresa; INSERT INTO pdo.clientes (nome, nascimento, endereco, genero, novosprodutos, ofertas)  
     values ('$nome', '$nasc', '$endereco', '$genero', '$novosProdutos', '$ofertas')");
   
